@@ -12,3 +12,13 @@ body
 {
 	background-color: #0077c0;
 }
+
+#carousel li
+{
+	background-color: #0287d0;
+}
+
+#carousel li.selected
+{
+	background-color: #0067b0;
+}

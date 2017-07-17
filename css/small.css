@@ -11,3 +11,25 @@ body
 {
 	background-color: #8E44AD;
 }
+
+#carousel li
+{
+	background-color: #8E44AD;
+}
+
+#carousel li.selected
+{
+	background-color: #6e248d;
+}
+
+/*
+#bottom-btn
+{
+	top: -21vw;
+}
+
+.circle:before
+{
+	font-size: 20vw;
+}
+*/

@@ -30,8 +30,8 @@ function fadeOut(element)
 
 function switch_screen(old_el, new_el)
 {
-	var delay = 25
-	var leveling = 0.05;
+	var delay = 1
+	var leveling = 0.02;
 	old_el.style.display = "block";
 	old_el.style.opacity = 1.0;
 	var it_out = setInterval(function (){

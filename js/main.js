@@ -14,6 +14,13 @@ document.getElementById("right-switch").addEventListener("click", function (){
 	change_screen(old);
 });
 
+function ch_scr_to(n_screen)
+{
+	var old = current_screen;
+	current_screen = n_screen;
+	change_screen(old);
+}
+
 function change_screen(old)
 {
 	if (current_screen != old)

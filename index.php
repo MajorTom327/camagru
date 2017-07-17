@@ -13,9 +13,14 @@
 			<div id="left-switch" class="parent-switch dk-bg"></div>
 			<article id="galerie">
 				<h2 class="dk-bg">Galerie</h2>
+				<!-- [IF NOT LOGGED] -->
+				<div id="not-logged">
+					Enregistrez-vous pour garder vos photos !
+				</div>
+				<!-- [ENDIF] -->
 			</article>
 			<article id="view">
-				<h2 class="dk-bg">Cam&eacute;ra</h2>
+				<h2 class="dk-bg">Kam&eacute;rahm&eacute;rah !</h2>
 				<div id="camera-zone">
 					<img src="http://4.bp.blogspot.com/-jUSw0BO8un8/T6QENBpE_sI/AAAAAAAABF8/UPD1pXzebwU/s1600/dr-who-rain.gif" alt="10th Rainning">
 						<div id="bottom-btn">
@@ -33,9 +38,9 @@
 			<div id="right-switch" class="parent-switch dk-bg"></div>
 			<article id="art-car">
 				<ul id="carousel">
-					<li>&nbsp;</li>
-					<li class="selected">&nbsp;</li>
-					<li>&nbsp;</li>
+					<li onclick="ch_scr_to(0);" title="Galerie">&nbsp;</li>
+					<li class="selected" onclick="ch_scr_to(1);" title="Cam&eacute;ra">&nbsp;</li>
+					<li onclick="ch_scr_to(2);" title="Filtre">&nbsp;</li>
 				</ul>
 			</article>
 		</section>

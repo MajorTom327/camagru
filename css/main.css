@@ -28,7 +28,7 @@ footer
 #bottom-btn
 {
 	position: relative;
-	top: -16vw;
+	top: -21vw;
 	width: 100vw;
 }
 
@@ -47,14 +47,13 @@ footer
 #view
 {
 	text-align: center;
-	width: 100vw;
 }
 
 
 .circle:before
 {
 	content: '\25C9';
-	font-size: 15vw;
+	font-size: 20vw;
 	opacity: 0.5;
 	vertical-align: bottom;
 	color: #FFFFFF;
@@ -126,14 +125,15 @@ h2
 	background-color: #F39C12;
 	display: inline-block;
 	border-radius: 50%;
-	width: 8px;
-	height: 8px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
 }
 #carousel li.selected
 {
 	background-color: #e67e22;
-	width: 12px;
-	height: 12px;
+	width: 24px;
+	height: 24px;
 }
 
 #camera-zone img
@@ -148,4 +148,73 @@ h2
 {
 	position: relative;
 	top: -16vmin;
+}
+
+#not-logged
+{
+	background-color: RGBA(128, 128, 128, 0.5);
+	font-size: 6vmin;
+	position: fixed;
+	width: 200vw;
+	left: -50vw;
+	top: 48vh;
+	z-index: 20;
+	text-decoration: underline;
+	animation: rainbowColor 5s infinite linear;
+
+	-ms-transform: rotate(25deg); /* IE 9 */
+	-webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+	transform: rotate(25deg);
+}
+
+
+
+/*
+
+@keyframes rainbowColor {
+	12.5% {
+		color: #FF0000;
+	}
+	25% {
+		color: #FFA500;
+	}
+	37.5% {
+		color: #FFFF00;
+	}
+	50% {
+		color: #7FFF00;
+	}
+	62.5% {
+		color: #00FFFF;
+	}
+	75% {
+		color: #0000FF;
+	}
+	87.5% {
+		color: #9932CC;
+	}
+	100% {
+		color: #FF1493;
+	}
+}
+
+*/
+
+
+
+@keyframes rainbowColor {
+	0%   {color: red; }
+    25%  {color: yellow; }
+    50%  {color: blue; }
+    75%  {color: green; }
+    100% {color: red; }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbowColor {
+    0%   {color: red; }
+    25%  {color: yellow; }
+    50%  {color: blue; }
+    75%  {color: green; }
+    100% {color: red; }
 }
