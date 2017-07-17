@@ -1,33 +1,46 @@
+var current_screen = 1;
 
-///@description: JS pour le menu deroulant
-sfHover = function()
+document.getElementById("left-switch").addEventListener("click", function (){
+	var old = current_screen;
+	if (current_screen > 0)
+		current_screen--;
+	change_screen(old);
+});
+
+document.getElementById("right-switch").addEventListener("click", function (){
+	var old = current_screen;
+	if (current_screen < 2)
+		current_screen++;
+	change_screen(old);
+});
+
+function change_screen(old)
 {
-	var sfEls = document.getElementById("menu").getElementsByTagName("LI");
-	for (var i=0; i<sfEls.length; i++)
+	if (current_screen != old)
 	{
-		sfEls[i].onmouseover=function(){ this.className+=" sfhover"; }
-		sfEls[i].onmouseout=function() { this.className=this.className.replace(new RegExp(" sfhover\\b"), ""); }
-	}
-}
-if (window.attachEvent) window.attachEvent("onload", sfHover);
-
-
-function onglet_camera()
-{
-	document.querySelector('#camera_zone').style.display = "block";
-	document.querySelector('#galerie').style.display = "none";
-	document.getElementById("ong_cam").className = "active";
-	document.getElementById("ong_gal").className = "";
-}
-
-function onglet_galerie()
-{
-	var gal = document.querySelector('#galerie');
-	if (gal.hasChildNodes())
-	{
-		document.querySelector('#camera_zone').style.display = "none";
-		document.querySelector('#galerie').style.display = "block";
-		document.getElementById("ong_gal").className = "active";
-		document.getElementById("ong_cam").className = "";
+		switch (old) {
+			case 0:
+				old_el = document.getElementById("gallerie");
+				break;
+			case 1:
+				old_el = document.getElementById("view")
+				break;
+			case 2:
+				old_el = document.getElementById("filtres")
+				break;
+		}
+		switch (current_screen)
+		{
+			case 0:
+				new_el = document.getElementById("gallerie");
+				break;
+			case 1:
+				new_el = document.getElementById("view");
+				break;
+			case 2:
+				new_el = document.getElementById("filtres");
+				break;
+		}
+		switch_screen(old_el, new_el);
 	}
 }

@@ -1,63 +1,122 @@
 body
 {
-	background-color: #e0e0e0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+	background-color: #ffcf4b;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 header
 {
-	background-color: #81d4fa;
-	position: fixed;
-	z-index: 50;
-	top: 0px;
+	background-color: #f9b32f;
 }
 
-#main-bar
+header a img
 {
-	width: 100vw;
-	display: inline-block;
-}
-#title-img
-{
-	/*
-	background-color: #0d47a1;
-	border-radius: 40%;
-	*/
-	width: 20vmin;
-}
-
-#title-img img
-{
-	width: 20vmin;
-}
-
-#main-menu
-{
-	float: right;
-	position: fixed;
-	right: 1vmin;
-	top: 1vmin;
-}
-
-section
-{
-	z-index: 0;
-	position: absolute;
-	left: 10vw;
-	right: 10vw;
-	top: 15vmin;
-	background-color: #2574a9;
+	width: 30vw;
 }
 
 footer
 {
-	position: absolute;
-	bottom: 0%;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
 	left: 0px;
 	right: 0px;
+	background-color: #f9b32f;
+}
+
+#bottom-btn
+{
+	position: relative;
+	top: -16vw;
+	width: 100vw;
+}
+
+#gallerie
+{
+	display: none;
 	text-align: center;
-	background-color: #e4f1fe;
+}
+
+#filtres
+{
+	display: none;
+	text-align: center;
+}
+
+#view
+{
+	text-align: center;
+	width: 100vw;
+}
+
+
+.circle:before
+{
+	content: '\25C9';
+	font-size: 15vw;
+	opacity: 0.5;
+	vertical-align: bottom;
+	color: #FFFFFF;
+	cursor:pointer;
+	z-index: 10;
+}
+
+.parent-switch
+{
+	font-size: 16vh;
+	background-color: #F39C12;
+}
+
+.parent-switch:before
+{
+	vertical-align: middle;
+	background-color: inherit;
+	position: absolute;
+	top: 40vh;
+	bottom: 43vh;
+}
+
+.parent-switch:hover
+{
+	background-color: #f1892d;
+	cursor:pointer;
+}
+
+#left-switch:before
+{
+	content: '\2039';
+	left: 0px;
+	border-radius: 0px 16px 16px 0px;
+}
+
+#right-switch:before
+{
+	content: '\203A';
+	right: 0px;
+	border-radius: 16px 0px 0px 16px;
+}
+
+h2
+{
+	text-decoration: underline;
+	background-color: #f9b32f;
+}
+
+#camera-zone
+{
+	overflow-y: scroll;
+}
+
+#camera-zone img
+{
+	max-width: 90vw;
+	/*
+	max-height: 90vmin;
+	width: 80vw;
+	*/
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #FF00FF;
 }

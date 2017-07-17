@@ -3,47 +3,34 @@
 	<head>
 		<title>Camagru</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
-		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
-		<link rel="stylesheet" type="text/css" href="css/camera.css"/>
+		<link rel="stylesheet" type="text/css" href="css/medium.css" media="all and (max-width: 800px)"/>
+		<link rel="stylesheet" type="text/css" href="css/small.css" media="all and (max-width: 500px)"/>
 	</head>
 	<body>
 		<?php include("inc/header.php"); ?>
+		<!--CODE-->
 		<section>
-			<article>
-				<div id="panel">
-					<ul class="onglet">
-						<li id="ong_cam" class="active" onclick="onglet_camera()"><a href="#">Camera</a></li>
-						<li id="ong_gal" onclick="onglet_galerie()"><a href="#">Last Pictures</a></li>
-					</ul>
-				</div>
-				<div id="camera_zone">
-					<div id="filters">
-						<ul>
-							<li>filtre1</li>
-							<li>filtre2</li>
-							<li>filtre3</li>
-							<li>filtre4</li>
-							<li>filtre5</li>
-							<li>filtre6</li>
-							<li>filtre7</li>
-							<li>filtre8</li>
-							<li>filtre9</li>
-						</ul>
-					</div>
-					<div id="camera">
-						<video id="video" width="60%" poster="https://i2.wp.com/s3-ak.buzzfeed.com/static/2014-05/tmp/webdr05/12/19/anigif_eaa6a580d8aece464ad6ec5fd8670b68-0.gif"></video>
-						<p>
-							<button id="capture_button">SnapShot</button>
-						</p>
-						<canvas id="canvas"></canvas>
-					</div>
-					<div id="last_picture" style="text-align: center;">
-						<img id="photo" alt="Last picture">
-					</div>
-				</div>
-				<div id="galerie"></div>
+			<div id="left-switch" class="parent-switch"></div>
+			<article id="gallerie">
+				<h2>Galerie</h2>
 			</article>
+			<article id="view">
+				<h2>Cam&eacute;ra</h2>
+				<div id="camera-zone">
+					<img src="http://4.bp.blogspot.com/-jUSw0BO8un8/T6QENBpE_sI/AAAAAAAABF8/UPD1pXzebwU/s1600/dr-who-rain.gif" alt="10th Rainning">
+						<div id="bottom-btn">
+							<span class="circle"></span>
+						</div>
+					</img>
+				</div>
+			</article>
+			<article id="filtres">
+				<h2>Filtres</h2>
+			</article>
+			<div id="right-switch" class="parent-switch"></div>
 		</section>
 		<?php include("inc/footer.php"); ?>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/extra.js"></script>
 	</body>
 </html>

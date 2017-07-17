@@ -1,0 +1,28 @@
+body
+{
+	background-color: #ab69c6;
+}
+header
+{
+	background-color: #8E44AD;
+}
+
+footer
+{
+	background-color: #8E44AD;
+}
+
+.parent-switch
+{
+	background-color: #8E44AD;
+}
+
+.parent-switch:hover
+{
+	background-color: #7e349d;
+}
+
+h2
+{
+	background-color: #8E44AD;
+}
