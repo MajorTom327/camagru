@@ -10,12 +10,12 @@
 		<?php include("inc/header.php"); ?>
 		<!--CODE-->
 		<section>
-			<div id="left-switch" class="parent-switch"></div>
-			<article id="gallerie">
-				<h2>Galerie</h2>
+			<div id="left-switch" class="parent-switch dk-bg"></div>
+			<article id="galerie">
+				<h2 class="dk-bg">Galerie</h2>
 			</article>
 			<article id="view">
-				<h2>Cam&eacute;ra</h2>
+				<h2 class="dk-bg">Cam&eacute;ra</h2>
 				<div id="camera-zone">
 					<img src="http://4.bp.blogspot.com/-jUSw0BO8un8/T6QENBpE_sI/AAAAAAAABF8/UPD1pXzebwU/s1600/dr-who-rain.gif" alt="10th Rainning">
 						<div id="bottom-btn">
@@ -23,11 +23,14 @@
 						</div>
 					</img>
 				</div>
+				<div id="stickers-edit" class="dk-bg">
+					Zone d'edition de stickers
+				</div>
 			</article>
 			<article id="filtres">
-				<h2>Filtres</h2>
+				<h2 class="dk-bg">Filtres</h2>
 			</article>
-			<div id="right-switch" class="parent-switch"></div>
+			<div id="right-switch" class="parent-switch dk-bg"></div>
 		</section>
 		<?php include("inc/footer.php"); ?>
 		<script type="text/javascript" src="js/main.js"></script>

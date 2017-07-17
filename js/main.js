@@ -20,7 +20,7 @@ function change_screen(old)
 	{
 		switch (old) {
 			case 0:
-				old_el = document.getElementById("gallerie");
+				old_el = document.getElementById("galerie");
 				break;
 			case 1:
 				old_el = document.getElementById("view")
@@ -32,7 +32,7 @@ function change_screen(old)
 		switch (current_screen)
 		{
 			case 0:
-				new_el = document.getElementById("gallerie");
+				new_el = document.getElementById("galerie");
 				break;
 			case 1:
 				new_el = document.getElementById("view");

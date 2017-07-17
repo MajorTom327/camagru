@@ -3,17 +3,7 @@ body
 	background-color: #22A7F0;
 }
 
-header
-{
-	background-color: #0287d0;
-}
-
-footer
-{
-	background-color: #0287d0;
-}
-
-.parent-switch
+.dk-bg
 {
 	background-color: #0287d0;
 }
@@ -21,9 +11,4 @@ footer
 .parent-switch:hover
 {
 	background-color: #0077c0;
-}
-
-h2
-{
-	background-color: #0287d0;
 }
