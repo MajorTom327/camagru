@@ -38,9 +38,9 @@
 			<div id="right-switch" class="parent-switch dk-bg"></div>
 			<article id="art-car">
 				<ul id="carousel">
-					<li onclick="ch_scr_to(0);" title="Galerie">&nbsp;</li>
-					<li class="selected" onclick="ch_scr_to(1);" title="Cam&eacute;ra">&nbsp;</li>
-					<li onclick="ch_scr_to(2);" title="Filtre">&nbsp;</li>
+					<li onclick="ch_scr_to(0);" class="tooltip" title="Galerie"><span class="tooltiptext">Galerie</span>&nbsp;</li>
+					<li class="selected tooltip" onclick="ch_scr_to(1);"><span class="tooltiptext">Cam&eacute;ra</span>&nbsp;</li>
+					<li onclick="ch_scr_to(2);" class="tooltip"><span class="tooltiptext">Filtre</span>&nbsp;</li>
 				</ul>
 			</article>
 		</section>
