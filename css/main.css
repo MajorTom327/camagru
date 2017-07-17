@@ -107,9 +107,33 @@ h2
 	background-color: #f9b32f;
 }
 
-#camera-zone
+#art-car
 {
-	overflow-y: scroll;
+	position: fixed;
+	bottom: 16px;
+}
+
+#carousel
+{
+	list-style: none;
+	width: 90vw;
+	text-align: center;
+}
+
+#carousel li
+{
+	vertical-align: middle;
+	background-color: #F39C12;
+	display: inline-block;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+}
+#carousel li.selected
+{
+	background-color: #e67e22;
+	width: 12px;
+	height: 12px;
 }
 
 #camera-zone img

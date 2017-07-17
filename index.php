@@ -31,6 +31,13 @@
 				<h2 class="dk-bg">Filtres</h2>
 			</article>
 			<div id="right-switch" class="parent-switch dk-bg"></div>
+			<article id="art-car">
+				<ul id="carousel">
+					<li>&nbsp;</li>
+					<li class="selected">&nbsp;</li>
+					<li>&nbsp;</li>
+				</ul>
+			</article>
 		</section>
 		<?php include("inc/footer.php"); ?>
 		<script type="text/javascript" src="js/main.js"></script>

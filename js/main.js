@@ -42,5 +42,13 @@ function change_screen(old)
 				break;
 		}
 		switch_screen(old_el, new_el);
+		var v_car = document.getElementById("carousel").children;
+		for (i = 0; i < v_car.length; i++)
+		{
+			if (i == old)
+				v_car[i].classList.remove("selected");
+			if (i == current_screen)
+				v_car[i].classList.add("selected");
+		}
 	}
 }
