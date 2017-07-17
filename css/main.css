@@ -110,12 +110,13 @@ h2
 {
 	position: fixed;
 	bottom: 16px;
+	left: 0px;
+	right: 0px;
 }
 
 #carousel
 {
 	list-style: none;
-	width: 90vw;
 	text-align: center;
 }
 
@@ -166,41 +167,6 @@ h2
 	-webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
 	transform: rotate(25deg);
 }
-
-
-
-/*
-
-@keyframes rainbowColor {
-	12.5% {
-		color: #FF0000;
-	}
-	25% {
-		color: #FFA500;
-	}
-	37.5% {
-		color: #FFFF00;
-	}
-	50% {
-		color: #7FFF00;
-	}
-	62.5% {
-		color: #00FFFF;
-	}
-	75% {
-		color: #0000FF;
-	}
-	87.5% {
-		color: #9932CC;
-	}
-	100% {
-		color: #FF1493;
-	}
-}
-
-*/
-
-
 
 @keyframes rainbowColor {
 	0%   {color: red; }
