@@ -33,7 +33,7 @@
 				</div>
 			</article>
 			<article id="filtres">
-				<?php include('/inc/stickers.php') ?>
+				<?php include('inc/stickers.php') ?>
 			</article>
 			<div id="right-switch" class="parent-switch dk-bg"></div>
 			<article id="art-car">
