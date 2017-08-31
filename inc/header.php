@@ -4,8 +4,8 @@
 		</a>
 	<nav id="main-menu">
 		<ul>
-			<li class="main-color-btn"><a href="?p=login">Se connecter</a></li>
-			<li class="main-color-btn"><a href="?p=galerie">Galerie</a></li>
+			<li><a class="btn info" href="?p=login">Se connecter</a></li>
+			<li><a class="btn info" href="?p=galerie">Galerie</a></li>
 		</ul>
 	</nav>
 </header>

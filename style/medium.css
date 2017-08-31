@@ -1,0 +1,23 @@
+.modal .modal-title, .modal
+{
+	position: fixed;
+	left: 2.5vw;
+	right: 2.5vw;
+	top: 10vh;
+	bottom: 10vh;
+	width: auto;
+	height: auto;
+}
+
+.modal .modal-title{
+	bottom: 80vh;
+}
+
+.modal .modal-content
+{
+	position: fixed;
+	left: 2.5vw;
+	right: 2.5vw;
+	top: 20vh;
+	width: auto;
+}

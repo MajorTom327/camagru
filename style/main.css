@@ -4,6 +4,7 @@ footer
 	bottom: 0px;
 	text-align: center;
 	width: 100%;
+	box-shadow: -1px 0px 4px 0 black;
 }
 
 header
@@ -12,6 +13,7 @@ header
 	position: absolute;
 	top: 0px;
 	display: inline-block;
+	box-shadow: 1px 0px 4px 0 black;
 }
 
 .main-title
@@ -31,6 +33,7 @@ ul.no-style li
 body
 {
 	margin: auto;
+	background-color: #bdccdb;
 }
 
 #main-container
@@ -51,14 +54,11 @@ body
 	height: 32px;
 }
 
-#main-menu ul, #main-menu ul li, #main-menu ul li a
+#main-menu ul, #main-menu ul li, #main-menu ul li
 {
 	font-size: 20px;
 	list-style: none;
 	display: inline-block;
-	color: black;
-	text-decoration: none;
-	height: 100%;
 	vertical-align: middle;
 }
 
@@ -67,7 +67,13 @@ h1
 	text-decoration: underline;
 }
 
-.main-color-btn:hover { background-color: #32B7F0;}
-
-.main-color { background-color: #22A7F0; }
-.main-background { background-color: #d0d0d0; }
+.p10 { position: relative; width: 10%; }
+.p20 { position: relative; width: 20%; }
+.p30 { position: relative; width: 30%; }
+.p40 { position: relative; width: 40%; }
+.p50 { position: relative; width: 50%; }
+.p60 { position: relative; width: 60%; }
+.p70 { position: relative; width: 70%; }
+.p80 { position: relative; width: 80%; }
+.p90 { position: relative; width: 90%; }
+.p100 { position: relative; width: 100%; }
