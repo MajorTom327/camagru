@@ -67,6 +67,10 @@ h1
 	text-decoration: underline;
 }
 
+.m { font-size: medium}
+.l { font-size: large; }
+.xl { font-size: x-large; }
+
 .p10 { position: relative; width: 10%; }
 .p20 { position: relative; width: 20%; }
 .p30 { position: relative; width: 30%; }

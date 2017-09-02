@@ -14,6 +14,9 @@
 		case "login":
 			include_once("./pages/login.php");
 			break;
+		case "install":
+			include_once("./pages/install.php");
+			break;
 		default:
 			include ("./pages/404.php");
 	}
