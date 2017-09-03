@@ -1,7 +1,7 @@
 <div id="main-container">
 <?php
 
-	$p = $_GET['p'];
+	$p = (isset($_GET['p'])) ? $_GET['p'] : "home";
 	switch ($p)
 	{
 		case "home":

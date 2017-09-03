@@ -7,8 +7,6 @@ for (i = 0, len = els.length; i < len; i++)
 		console.error("Could not attach event");
 }
 
-
-
 function closeModal()
 {
 	console.log("HEY");

@@ -1,6 +1,18 @@
 <h1><?=$trad['sign-in']['title']?></h1>
-<form>
-	<input type="email" class="form-control" placeholder="<?=$trad['frequent']['email']?>"/>
-	<input type="text" class="form-control" placeholder="<?=$trad['frequent']['username']?>"/>
-	<input type="password" class="form-control" placeholder="<?=$trad['frequent']['password']?>"/>
+<form method="post" action="?p=signin&action=save">
+	<span>
+		<input type="text" name="mail" class="form-control" placeholder="<?=$trad['frequent']['email']?>" onkeyup="checkMail(this);"/>
+		<span class="input-addon"></span>
+	</span>
+	<span>
+		<input type="text" name="user" class="form-control" placeholder="<?=$trad['frequent']['username']?>" onkeyup="checkUsername(this);"/>
+		<span class="input-addon"></span>
+	</span>
+	<span>
+		<input type="password" name="pass" class="form-control" placeholder="<?=$trad['frequent']['password']?>" onkeyup="checkPassword(this);"/>
+		<span class="input-addon" id="pass-feedback"></span>
+	</span>
+	<input type="hidden" name="action" value="save"/>
+	<button class="btn primary" action="submit">Valider l'inscription</button>
 </form>
+<script src="./js/check.js"></script>

@@ -6,6 +6,7 @@
 		include_once("./inc/bdd.php");
 		include_once("./inc/function.php");
 
+		createAccount();
 		if (isset($_GET['logout']))
 		{
 			$_SESSION['user'] = "";
@@ -65,4 +66,23 @@
 	{
 		header("Location: ?p=install");
 	}
+
+function createAccount()
+{
+	if (isset($_POST['action']) && $_POST['action'] == "create")
+	{
+		$req = $mysql->prepare("INSERT INTO `users` (`id`, `user`, `pass`, `mail`) VALUES (NULL, ':username', ':pass', ':mail')");
+		$sign_pass = $_POST['pass'];
+		$sign_user = $_POST['user'];
+		$sign_mail = $_POST['mail'];
+
+		$re = '/^([a-z0-9]+(?:[._-][a-z0-9]+)*)@([a-z0-9]+(?:[.-][a-z0-9]+)*\.[a-z]{2,})$/i';
+		//preg_match($re, $sign_mail, $matches, PREG_OFFSET_CAPTURE, 0);
+		//var_dump($matches);
+		$req->bindParam(":username", $sign_user);
+		$req->bindParam(":pass", $sign_pass);
+		$req->bindParam(":mail", $sign_mail);
+		$req->execute();
+	}
+}
 ?>
