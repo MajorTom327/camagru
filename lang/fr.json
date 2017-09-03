@@ -2,14 +2,19 @@
 	"frequent": {
 		"email": "Addresse E-Mail",
 		"username": "Pseudonyme",
-		"password": "Mot de passe"
+		"password": "Mot de passe",
+		"sign-in": "S'inscrire",
+		"log-in": "Se connecter",
+		"log-out": "Se déconnecter"
 	},
 	"menu": {
 		"home": "Home",
 		"connect": "Se connecter",
-		"disconnect": "Se déconnecter",
 		"view": "Galerie",
 		"install": "Developement Reinstallation"
+	},
+	"home":{
+		"title": "On n'est jamais aussi bien qu'en 127.0.0.1"
 	},
 	"404":{
 		"title": "FATAL ERROR 404",

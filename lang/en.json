@@ -1,0 +1,35 @@
+{
+	"frequent": {
+		"email": "E-Mail",
+		"username": "Nickname",
+		"password": "Password",
+		"sign-in": "Sign in",
+		"log-in": "Log in",
+		"log-out": "Log out"
+	},
+	"menu": {
+		"home": "Home",
+		"connect": "Log-in",
+		"disconnect": "Log-out",
+		"view": "Galerie",
+		"install": "Developement Reinstall"
+	},
+	"home":{
+		"title": "There is no place like 127.0.0.1"
+	},
+	"404":{
+		"title": "FATAL ERROR 404",
+		"message": "Don't be affraid! You can go back if you follow the link below:"
+	},
+	"log": {
+		"modal-title": "It's time to be connected!",
+		"modal-content": {
+			"header": "This is a connect form",
+			"sign-in": "Sign-in",
+			"log-in": "Se connecter"
+		}
+	},
+	"sign-in": {
+		"title": "You want to sign in ? It's ok. You can here."
+	}
+}

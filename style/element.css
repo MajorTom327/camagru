@@ -9,7 +9,7 @@
 
 .btn
 {
-	background-color: #22A7F0;
+	background-color: #acbac9;
 	border: 1px solid black;
 	border-radius: 4px;
 	vertical-align: middle;
@@ -18,7 +18,7 @@
 	text-decoration: none;
 
 }
-
+/* #22A7F0 */
 .primary
 {
 	background-color: #3498db;

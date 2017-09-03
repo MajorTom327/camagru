@@ -58,11 +58,23 @@ h1{
 	text-decoration: underline;
 }
 
+#flag-choice
+{
+	position: absolute;
+	right: 1vw;
+}
+
+.flag-el:hover
+{
+	padding-bottom: 16px;
+}
+
 #camera{
 	width: 75vw;
 	height: auto;
 }
-
+.xs { font-size: x-small}
+.s { font-size: small}
 .m { font-size: medium}
 .l { font-size: large; }
 .xl { font-size: x-large; }

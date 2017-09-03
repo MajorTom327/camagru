@@ -9,7 +9,7 @@
 			if (!isset($_SESSION['user']) || !isset($_SESSION['pass']) || $_SESSION['user'] == "" || $_SESSION['pass'] == "")
 				echo '<li><a class="btn info" href="?p=login">'.$trad['menu']['connect'].'</a></li>';
 			else
-				echo '<li><a class="btn info" href="?p=login&logout">'.$trad['menu']['disconnect'].'</a></li>';
+				echo '<li><a class="btn info" href="?p=login&logout">'.$trad['frequent']['log-out'].'</a></li>';
 			?>
 			<li><a class="btn info" href="?p=galerie"><?=$trad['menu']['view']?></a></li>
 			<li><a class="btn warning" href="?p=install"><?=$trad['menu']['install']?></a></li>
