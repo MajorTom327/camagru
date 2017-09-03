@@ -5,10 +5,10 @@
 		<a class="btn close-modal disabled">&nbsp;&times;&nbsp;</a>
 	</span>
 	<div class="modal-content">
-		<form action="" method="post">
+		<form action="?p=home" method="post">
 			<h3>This is your connection form:</h3>
-			<input type="text" placeholder="Username" class="form-control"/>
-			<input type="password" placeholder="Password" class="form-control"/>
+			<input type="text" name="user" placeholder="Username" class="form-control"/>
+			<input type="password" name="pass" placeholder="Password" class="form-control"/>
 			<button class="btn l">Se connecter</button>
 		</form>
 	</div>

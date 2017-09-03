@@ -1,3 +1,4 @@
+<?php include_once("./inc/log.php") ?>
 <!DOCTYPE>
 <html>
 	<head>

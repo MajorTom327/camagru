@@ -1,2 +1,3 @@
 ErrorDocument 404 ?p=404
+ErrorDocument 403 ?p=403
 Options -Indexes

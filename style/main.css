@@ -10,7 +10,7 @@ footer
 header
 {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	display: inline-block;
 	box-shadow: 1px 0px 4px 0 black;

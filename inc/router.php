@@ -1,10 +1,6 @@
 <div id="main-container">
 <?php
-	if (!isset($_GET['p']))
-	{
-		include ("./pages/404.php");
-		exit();
-	}
+
 	$p = $_GET['p'];
 	switch ($p)
 	{
