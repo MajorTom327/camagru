@@ -1,7 +1,7 @@
 <div>
-	<h1>FATAL ERROR 404</h1>
+	<h1><?=$trad['404']['title']?></h1>
 	<div>
-		<p>Don't be afraid, you can go home if you want by following the link below:</p>
+		<p><?=$trad['404']['message']?></p>
 		<a href="?p=home">
 			<img src="./res/link.gif" alt="link" style="border-radius: 20%;"></img>
 		</a>

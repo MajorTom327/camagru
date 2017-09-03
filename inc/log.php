@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	include_once("./inc/translate.php");
 	try//AUTO INSTALL
 	{
 		include_once("./inc/bdd.php");

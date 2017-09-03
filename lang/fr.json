@@ -1,0 +1,29 @@
+{
+	"frequent": {
+		"email": "Addresse E-Mail",
+		"username": "Pseudonyme",
+		"password": "Mot de passe"
+	},
+	"menu": {
+		"home": "Home",
+		"connect": "Se connecter",
+		"disconnect": "Se déconnecter",
+		"view": "Galerie",
+		"install": "Developement Reinstallation"
+	},
+	"404":{
+		"title": "FATAL ERROR 404",
+		"message": "Ne soyez pas effrayé ! Vous pouvez retrouver votre chemin facilement. Il suffit de suivre le link en dessous:"
+	},
+	"log": {
+		"modal-title": "Il est l'heure de se connecter !",
+		"modal-content": {
+			"header": "Ceci est votre formulaire de connexion !",
+			"sign-in": "S'inscrire",
+			"log-in": "Se connecter"
+		}
+	},
+	"sign-in": {
+		"title": "Vous souhaitez vous inscrire ? Parfait ! C'est par ici !"
+	}
+}

@@ -1,5 +1,4 @@
-footer
-{
+footer {
 	position: absolute;
 	bottom: 0px;
 	text-align: center;
@@ -7,8 +6,7 @@ footer
 	box-shadow: -1px 0px 4px 0 black;
 }
 
-header
-{
+header {
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -16,28 +14,23 @@ header
 	box-shadow: 1px 0px 4px 0 black;
 }
 
-.main-title
-{
+.main-title {
 	height: 64px;
 }
 
-ul.no-style
-{
+ul.no-style {
 	list-style: none;
 }
-ul.no-style li
-{
+ul.no-style li {
 	display: inline-block;
 }
 
-body
-{
+body {
 	margin: auto;
 	background-color: #bdccdb;
 }
 
-#main-container
-{
+#main-container {
 	position: absolute;
 	top: 80px;
 	bottom: 80px;
@@ -45,8 +38,7 @@ body
 	right: 16px;
 	text-align: center;
 }
-#main-menu
-{
+#main-menu {
 	float: right;
 	text-align: right;
 	position: relative;
@@ -62,9 +54,13 @@ body
 	vertical-align: middle;
 }
 
-h1
-{
+h1{
 	text-decoration: underline;
+}
+
+#camera{
+	width: 75vw;
+	height: auto;
 }
 
 .m { font-size: medium}
