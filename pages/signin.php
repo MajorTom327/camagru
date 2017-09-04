@@ -1,5 +1,5 @@
 <h1><?=$trad['sign-in']['title']?></h1>
-<form method="post" action="?p=signin&action=save">
+<form method="post" action="?p=signin&action=create">
 	<span>
 		<input type="text" name="mail" class="form-control" placeholder="<?=$trad['frequent']['email']?>" onkeyup="checkMail(this);"/>
 		<span class="input-addon"></span>
@@ -12,7 +12,6 @@
 		<input type="password" name="pass" class="form-control" placeholder="<?=$trad['frequent']['password']?>" onkeyup="checkPassword(this);"/>
 		<span class="input-addon" id="pass-feedback"></span>
 	</span>
-	<input type="hidden" name="action" value="save"/>
 	<button class="btn primary" action="submit">Valider l'inscription</button>
 </form>
 <script src="./js/check.js"></script>
