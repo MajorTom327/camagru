@@ -12,7 +12,8 @@
 		"connect": "Log-in",
 		"disconnect": "Log-out",
 		"view": "Galerie",
-		"install": "Developement Reinstall"
+		"install": "Developement Reinstall",
+		"account": "My Account"
 	},
 	"home":{
 		"title": "There is no place like 127.0.0.1"

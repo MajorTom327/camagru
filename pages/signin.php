@@ -1,5 +1,5 @@
 <h1><?=$trad['sign-in']['title']?></h1>
-<form method="post" action="?p=signin&action=create">
+<form method="post" action="?p=login&action=create">
 	<span>
 		<input type="text" name="mail" class="form-control" placeholder="<?=$trad['frequent']['email']?>" onkeyup="checkMail(this);"/>
 		<span class="input-addon"></span>

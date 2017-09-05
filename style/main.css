@@ -1,5 +1,5 @@
 footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
 	text-align: center;
 	width: 100%;
@@ -34,8 +34,7 @@ body {
 	position: absolute;
 	top: 80px;
 	bottom: 80px;
-	left: 16px;
-	right: 16px;
+	width: 100vw;
 	text-align: center;
 }
 #main-menu {
@@ -79,13 +78,13 @@ h1{
 .l { font-size: large; }
 .xl { font-size: x-large; }
 
-.p10 { position: relative; width: 10%; }
-.p20 { position: relative; width: 20%; }
-.p30 { position: relative; width: 30%; }
-.p40 { position: relative; width: 40%; }
-.p50 { position: relative; width: 50%; }
-.p60 { position: relative; width: 60%; }
-.p70 { position: relative; width: 70%; }
-.p80 { position: relative; width: 80%; }
-.p90 { position: relative; width: 90%; }
-.p100 { position: relative; width: 100%; }
+.p10 { position: relative; width: 10vw; }
+.p20 { position: relative; width: 20vw; }
+.p30 { position: relative; width: 30vw; }
+.p40 { position: relative; width: 40vw; }
+.p50 { position: relative; width: 50vw; }
+.p60 { position: relative; width: 60vw; }
+.p70 { position: relative; width: 70vw; }
+.p80 { position: relative; width: 80vw; }
+.p90 { position: relative; width: 90vw; }
+.p100 { position: relative; width: 100vw; }

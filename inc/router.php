@@ -16,6 +16,9 @@
 		case "signin":
 			include_once("./pages/signin.php");
 			break;
+		case "account":
+			include_once("./pages/account.php");
+			break;
 		default:
 			include ("./pages/404.php");
 	}

@@ -22,11 +22,11 @@
 	width: auto;
 }
 
-#main-menu ul li a.btn i
+#main-menu ul li a.btn i.fa
 {
-	display: none;
+	display: inline-block;
 }
 #main-menu ul li a.btn .btn-legend
 {
-	display: inline-block;
+	display: none;
 }

@@ -11,7 +11,8 @@
 		"home": "Home",
 		"connect": "Se connecter",
 		"view": "Galerie",
-		"install": "Developement Reinstallation"
+		"install": "Developement Reinstallation",
+		"account": "Mon Compte"
 	},
 	"home":{
 		"title": "On n'est jamais aussi bien qu'en 127.0.0.1"
