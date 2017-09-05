@@ -1,6 +1,6 @@
 {
 	"frequent": {
-		"email": "Addresse E-Mail",
+		"email": "Adresse E-Mail",
 		"username": "Pseudonyme",
 		"password": "Mot de passe",
 		"sign-in": "S'inscrire",
@@ -11,7 +11,7 @@
 		"home": "Home",
 		"connect": "Se connecter",
 		"view": "Galerie",
-		"install": "Developement Reinstallation",
+		"install": "Développement Réinstallation",
 		"account": "Mon Compte"
 	},
 	"home":{
